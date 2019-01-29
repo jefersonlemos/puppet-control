@@ -22,14 +22,14 @@ mod 'ssh',
   :git => 'https://github.com/jefersonlemos/puppet-ssh.git',
   :ref => 'master'
 
-#mod 'ntp',
-#  :git => 'https://github.com/jefersonlemos/puppet-ntp.git',
-#  :ref => 'master'
+mod 'ntp',
+  :git => 'https://github.com/jefersonlemos/puppet-ntp.git',
+  :ref => 'master'
 
-#mod 'role',
-#  :git => 'https://github.com/jefersonlemos/puppet-role.git',
-#  :ref => 'master'
+mod 'role',
+  :git => 'https://github.com/jefersonlemos/puppet-role.git',
+  :ref => 'master'
 
-#mod 'profile',
-#  :git => 'https://github.com/jefersonlemos/puppet-profile.git',
-#  :ref => 'master'
+mod 'profile',
+  :git => 'https://github.com/jefersonlemos/puppet-profile.git',
+  :ref => 'master'
