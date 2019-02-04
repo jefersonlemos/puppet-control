@@ -10,7 +10,7 @@ mod 'puppet/selinux',         '0.8.0'
 mod 'garethr/docker',         '5.3.0'
 #
 
-# Modules from Git
+# Modules from Git and commented
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
