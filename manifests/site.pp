@@ -12,6 +12,7 @@
 ## Active Configurations ##
 
 # Disable filebucket by default for all File resources:
+#https://docs.puppet.com/pe/2015.3/release_notes.html#filebucket-resource-no-longer-created-by-default
 File { backup => false }
 
 # DEFAULT NODE
@@ -24,33 +25,8 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
-$test_top_scope = "the top scope"
-
-#node 'jeferson-santos4.mylabserver.com', 'jeferson-santos2.mylabserver.com' {
-#	notify { "This is a definition of two nodes in a line": }
-#	include ntp
-#}
-
-node /^jeferson-santos4/ {
-   notify {"This is a node definition usign regex": }
-}
-
-node 'jeferson-santos1.mylabserver.com' {
-  include pe_repo::platform::el_6_x86_64
-  include pe_repo::platform::ubuntu_1204_amd64
-  class { 'ntp':  }
-  }
-
 node default {
-  $test_top_scope = "this is inside default node "
-  $node_scope_var = "second Node Scope inside default node"
-  notify { "test_top_scope": 
-    message => "this is a top scope variable ${test_top_scope}"
-  
-  }
-  #  notify {"This is the default node": }
-#  class { 'ntp': }
-}
-node 'jeferson-santos2.mylabserver.com' {
-  # class { 'ssh': }
+  # This is where you can declare classes for all nodes.
+  # Example:
+  #   class { 'my_class': }
 }
