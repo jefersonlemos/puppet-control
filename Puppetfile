@@ -27,13 +27,16 @@ mod 'ntp',
   :ref => 'master'
 
 mod 'role',
-  :git => 'https://github.com/jefersonlemos/puppet-role.git',
+  #:git => 'https://github.com/jefersonlemos/puppet-role.git',
+  :git => 'git@github.com:jefersonlemos/puppet-role.git',
   :ref => 'master'
 
 mod 'profile',
-  :git => 'https://github.com/jefersonlemos/puppet-profile.git',
+  #:git => 'https://github.com/jefersonlemos/puppet-profile.git',
+  :git => 'git@github.com:jefersonlemos/puppet-profile.git',
   :ref => 'master'
 
 mod 'nginx',
-  :git => 'https://github.com/jefersonlemos/puppet-nginx.git',
+  #:git => 'https://github.com/jefersonlemos/puppet-nginx.git',
+  :git => 'git@github.com:jefersonlemos/puppet-nginx.git',
   :ref => 'master'
