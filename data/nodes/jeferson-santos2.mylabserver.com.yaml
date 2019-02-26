@@ -1,5 +1,5 @@
 ---
-profile::apache::apache_vhost_servers: {
+profile::nginx::vhosts: {
   'jeferson-santos2.mylabserver.com': {
     port: 80,
     docroot: '/var/www/jeferson-santos2'       
@@ -9,10 +9,10 @@ profile::apache::apache_vhost_servers: {
     docroot: '/var/www/jeferson-santos2b'
   }
 }
-profile::base::ntp_servers:
- - 0.ubunut.pool.ntp.org
- - 1.ubunut.pool.ntp.org
- - 2.ubunut.pool.ntp.org
- - 3.ubunut.pool.ntp.org  
+# profile::base::ntp_servers:
+#  - 0.ubunut.pool.ntp.org
+#  - 1.ubunut.pool.ntp.org
+#  - 2.ubunut.pool.ntp.org
+#  - 3.ubunut.pool.ntp.org  
 
 
