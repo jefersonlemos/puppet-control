@@ -4,6 +4,6 @@ profile::nginx::vhosts:
    'port': 80
    'server_aliases': ''       
  - 'fqdn': 'jeferson-santos2b.mylabserver.com'
-   'port': 80
+   'port': 8080
    'server_aliases': 'jeferson-santos2b.mylabserver.com'
 
