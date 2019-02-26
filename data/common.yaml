@@ -1,8 +1,16 @@
 ---
-profile::base::ntp_servers:
- - 0.ubuntu.pool.ntp.org       
- - 1.ubuntu.pool.ntp.org       
- - 2.ubuntu.pool.ntp.org       
- - 3.ubuntu.pool.ntp.org  
+profile::nginx::vhosts:
+ - 'fqdn': 'jeferson-santos2.mylabserver.com'
+   'port': 80
+   'server_aliases': ''
+ - 'fqdn': 'jeferson-santos2.mylabserver.com'
+   'port': 80
+   'server_aliases': 'jeferson-santos2.mylabserver.com'
 
-profile::apache::default_vhost: false   
+# profile::base::ntp_servers:
+#  - 0.ubuntu.pool.ntp.org       
+#  - 1.ubuntu.pool.ntp.org       
+#  - 2.ubuntu.pool.ntp.org       
+#  - 3.ubuntu.pool.ntp.org  
+
+# profile::apache::default_vhost: false   
