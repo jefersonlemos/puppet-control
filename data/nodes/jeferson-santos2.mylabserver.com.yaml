@@ -1,17 +1,9 @@
 ---
 profile::nginx::vhosts:
-  - 'fqdn': 'jeferson-santos2.mylabserver.com'
-    'port': 80
-    'server_aliases': ''       
-  - 'fqdn': 'jeferson-santos2b.mylabserver.com'
-    'port': 80
-    'server_aliases': 'jeferson-santos2b.mylabserver.com'       
-
-
-# profile::base::ntp_servers:
-#  - 0.ubunut.pool.ntp.org
-#  - 1.ubunut.pool.ntp.org
-#  - 2.ubunut.pool.ntp.org
-#  - 3.ubunut.pool.ntp.org  
-
+ - 'fqdn': 'jeferson-santos2.mylabserver.com'
+   'port': 80
+   'server_aliases': ''       
+ - 'fqdn': 'jeferson-santos2b.mylabserver.com'
+   'port': 80
+   'server_aliases': 'jeferson-santos2b.mylabserver.com'
 
